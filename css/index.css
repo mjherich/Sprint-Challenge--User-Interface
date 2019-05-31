@@ -144,3 +144,63 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* === BEGIN SPRINT STYLES */
+
+/* Header styles */
+header {
+    height: auto;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+}
+header nav ul {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+header nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main styles */
+section.top-content {
+    margin-top: 20px;
+}
+
+/* Color boxes */
+.boxes .box:nth-child(1) {
+    background: teal;
+}
+.boxes .box:nth-child(2) {
+    background: gold;
+}
+.boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+.boxes .box:nth-child(4) {
+    background: coral;
+}
+.boxes .box:nth-child(5) {
+    background: crimson;
+}
+.boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+.boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+.boxes .box:nth-child(8) {
+    background: hotpink;
+}
+.boxes .box:nth-child(9) {
+    background: indigo;
+}
+.boxes .box:nth-child(10) {
+    background: dodgerblue;
+}

@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a best practice for writing HTML documents that are easy to understand and follow HTML5 specifications. Using semantic HTML is valuable because it's clean and allows you to understand the structure of a web page quickly. In the past developers used class names to describe what each element was used for, many of the new HTML5 elements that were added directly address this old way of doing things.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+```display: block;``` will span the entire width of its container and add line breaks before and after the element whereas ```display: inline;``` will span the width of its content and will not add line breaks.
 
 3. What are the 4 areas of the box model?
 
+Margin, border, padding & content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross-axis (vertically centered for default flex direction row)
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable because it allows a team of developers to efficiently collaborate with each other and keep track of changes to a project. Without git it would be a nightmare to revert back to an older version of an application.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

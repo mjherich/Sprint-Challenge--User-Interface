@@ -204,3 +204,44 @@ section.top-content {
 .boxes .box:nth-child(10) {
     background: dodgerblue;
 }
+
+/* ABOUT PAGE */
+/* Spacing and layout */
+main {
+    margin: 20px 0;
+}
+main > div {
+    margin: 0 15px;
+}
+.lets-work-together {
+    padding: 20px 0;
+}
+/* Style middle boxes */
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding-top: 10px;
+    border-top: 1px dashed black;
+}
+.about-boxes .about-box {
+    width: 47%;
+    padding: 15px 0;
+    margin: 8px;
+    border-bottom: 1px dashed black;
+}
+.about-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* Learn more buttons */
+.learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
